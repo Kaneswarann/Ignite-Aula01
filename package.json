@@ -1,12 +1,21 @@
 {
+<<<<<<< HEAD
   "name": "01-fundamentos-reactjs-ts",
+=======
+  "name": "01-fundamentos-reactjs",
+>>>>>>> 3e82f06e1c8f14a05335218ce1f23ec9d1caff22
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+=======
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+>>>>>>> 3e82f06e1c8f14a05335218ce1f23ec9d1caff22
     "preview": "vite preview"
   },
   "dependencies": {
@@ -16,6 +25,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@types/date-fns": "^2.6.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
@@ -26,6 +36,15 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "typescript": "^5.0.2",
+=======
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+>>>>>>> 3e82f06e1c8f14a05335218ce1f23ec9d1caff22
     "vite": "^4.4.5"
   }
 }
