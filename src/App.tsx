@@ -1,6 +1,6 @@
 
 import { Header } from './components/Header'
-import { Sidebar } from './components/Sidebar';
+import { Sidebar } from './components/Sidebar'
 import { Post, PostType } from './components/Post'
 import './global.css'
 import sytles from "./components/App.module.css";
